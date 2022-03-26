@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/* all section*/
+.section1 {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+
+  width: 100%;
+  height: 40rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Mono", monospace;
+}
+
+/* container pertama */
+#container {
+  border: 2px solid #fff;
+  width: 40rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*wrapper usemname*/
+
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*wrapper password*/
+
+.wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+/* text setiap input */
+.text {
+  color: rgb(250, 226, 230);
+  font-size: 25px;
+}
+
+/* input username */
+
+.wrapper1 input {
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid rgb(250, 226, 230);
+}
+
+/* input password */
+.wrapper2 input {
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid rgb(250, 226, 230);
+}
+
+/* btn login */
+
+.btn {
+  margin-top: 3rem;
+  justify-content: center;
+  display: flex;
+}
+
+.btn button {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: "Red Hat Mono", monospace;
+  border: 0px solid;
+}
+
+.btn button:hover {
+  background-color: #f3d2dd;
+  box-shadow: 1px 1px 1px 1px pink;
+  border: 1px solid white;
+}
